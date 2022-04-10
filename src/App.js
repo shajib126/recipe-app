@@ -1,5 +1,5 @@
 import Pages from "./pages/Pages";
-import './app.css'
+import './App.css'
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
@@ -8,7 +8,7 @@ import {BrowserRouter} from 'react-router-dom'
 import Search from "./components/Search";
 function App() {
   return (
-    <div className="app">
+    <div className="App">
       <BrowserRouter>
       <Nav>
       
